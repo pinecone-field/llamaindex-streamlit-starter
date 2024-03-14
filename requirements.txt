@@ -1,0 +1,6 @@
+streamlit
+watchdog
+pinecone-client
+llama-index
+llama-index-vector-stores-pinecone
+python-dotenv
