@@ -4,6 +4,15 @@ This is a template repository for creating a [Streamlit](https://streamlit.io) a
 
 ## Configuration
 
+### Install packages
+
+1. For best results, create a [Python virtual environment](https://realpython.com/python-virtual-environments-a-primer/) with 3.10 or 3.11 and reuse it when running any file in this repo.
+2. Run
+
+```shell
+pip install -r requirements.txt
+```
+
 ### Environment Variables
 
 Copy `.env.template` to `.env` and `secrets.toml.template` to `secrets.toml`. Fill in your Pinecone API key, OpenAI API key, index name, and the path to your PDF file. The `.env` file will be used by the Jupyter notebook for processing the data and upserting it to Pinecone, whereas `secrets.toml` will be used by Streamlit when running locally.
