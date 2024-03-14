@@ -6,4 +6,4 @@ This is a template repository for creating a [Streamlit](https://streamlit.io) a
 
 ### Environment Variables
 
-Copy `.env.template` to `.env` and `secrets.toml.template` to `secrets.toml`. Fill in your Pinecone API key, OpenAI API key, and index name. The `.env` file will be used by the Jupyter notebook for processing the data and upserting it to Pinecone, whereas `secrets.toml` will be used by Streamlit when running locally.
+Copy `.env.template` to `.env` and `secrets.toml.template` to `secrets.toml`. Fill in your Pinecone API key, OpenAI API key, index name, and the path to your PDF file. The `.env` file will be used by the Jupyter notebook for processing the data and upserting it to Pinecone, whereas `secrets.toml` will be used by Streamlit when running locally.
