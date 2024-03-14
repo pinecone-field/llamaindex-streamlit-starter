@@ -33,3 +33,21 @@ In the `streamlit_app.py` file:
 - Set your preferred prompt on [line 30](https://github.com/pinecone-field/llamaindex-streamlit-starter/blob/ed56db5bdcb940bece8c68f9034debd83d3e3e41/streamlit_app.py#L30)
 - Set your preferred button label on [line 33](https://github.com/pinecone-field/llamaindex-streamlit-starter/blob/ed56db5bdcb940bece8c68f9034debd83d3e3e41/streamlit_app.py#L33)
 - If you upserted vectors to a namespace when [processing the PDF](#processing-the-pdf), comment/uncomment [lines 21-22](https://github.com/pinecone-field/llamaindex-streamlit-starter/blob/ed56db5bdcb940bece8c68f9034debd83d3e3e41/streamlit_app.py#L21) and set the same namespace name.
+
+### Running the app
+
+1. Validate that Streamlit is [installed](#install-packages) correctly by running
+
+```shell
+streamlit hello
+```
+
+You should see a welcome message and the demo should automatically open in your browser. If it doesn't open automatically, manually go to the **Local URL** listed in the terminal output.
+
+2. If the demo ran correctly, run
+
+```shell
+streamlit streamlit_app.py
+```
+
+3. Confirm that your app looks good and test queries return successful responses. If so, move on to deployment!
