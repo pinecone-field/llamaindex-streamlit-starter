@@ -47,7 +47,7 @@ You should see a welcome message and the demo should automatically open in your 
 2. If the demo ran correctly, run
 
 ```shell
-streamlit streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 3. Confirm that your app looks good and test queries return successful responses. If so, move on to deployment!
